@@ -1,24 +1,15 @@
-public class SeatworkEight {
-            public static void main(String args[]) {
-                    int grade = 3;
-                            switch (grade) {
-                                        case 1:
-                                                        System.out.println("Excellent!");
-                                                                        break;
-                                                                                    case 2:
-                                                                                                case 3:
-                                                                                                                System.out.println("Well done");
-                                                                                                                                break;
-                                                                                                                                            case 4:
-                                                                                                                                                            System.out.println("You passed");
-                                                                                                                                                                            break;
-                                                                                                                                                                                        case 5:
-                                                                                                                                                                                                        System.out.println("Better try again");
-                                                                                                                                                                                                                        break;
-                                                                                                                                                                                                                                    default:
-                                                                                                                                                                                                                                                    System.out.println("Invalid grade");
-                                                                                                                                                                                                                                                            }
-                                                                                                                                                                                                                                                                    System.out.println("Your grade is " + grade);
-                                                                                                                                                                                                                                                                        }
-                                                                                                                                                                                                                                                                        }
+public class Main {
+            public static void main(String[] args) {
+                    System.out.println("SEATWORKELEVEN2025");
+                            System.out.println();
+
+                                    int[][] myNumbers = { {1, 4, 2}, {3, 6, 8, 5, 2} };
+
+                                            for (int row = 0; row < myNumbers.length; row++) {
+                                                        for (int col = 0; col < myNumbers[row].length; col++) {
+                                                                        System.out.println("myNumbers[" + row + "][" + col + "] = " + myNumbers[row][col]);
+                                                                                    }
+                                                                                            }
+                                                                                                }
+                                                                                                }
 }
